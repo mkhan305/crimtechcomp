@@ -84,4 +84,3 @@ If you're more interested in integrated styling, check out [CSS Modules](https:/
 This is used for rendering the modal. This is important so that the modal is not rendered (and thus, styled) where the `Modal` component is placed. This is because than unknown parent element's CSS and layout restrictions possibly cascade and make it look differently. Modal rendering should be deterministic: they should look the same no matter where the actual component is placed.
 
 Read more about it [here](https://react.dev/reference/react-dom/createPortal).
-# crimtechcomp
